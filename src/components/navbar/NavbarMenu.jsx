@@ -1,6 +1,7 @@
 const NavbarMenu = () => {
   const listClass =
     "cursor-pointer text-white font-josefin text-base font-medium hover:text-lg";
+    
   return (
     <>
       <ul className="hidden md:flex items-center gap-4">

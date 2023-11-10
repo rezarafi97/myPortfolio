@@ -7,6 +7,13 @@ export default {
         nunito: ["Nunito", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
       },
+      colors: {
+        p1: "#4D98E4",
+        p2: "#3E4756",
+        p3: "#A2ACBD",
+        p4: "#DD7295",
+        p5: "#A33E62",
+      },
     },
   },
   plugins: [],

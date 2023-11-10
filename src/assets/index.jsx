@@ -1,3 +1,5 @@
 import logo from "./logo.svg";
+import avatar from "./avatar.svg";
+import blob from "./blob.svg";
 
-export { logo };
+export { logo, avatar, blob };

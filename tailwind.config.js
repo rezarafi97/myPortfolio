@@ -15,7 +15,7 @@ export default {
         p5: "#A33E62",
       },
       backgroundImage: {
-        blob: "url('/src/assets/blob.svg')",
+        bgAbout: "url('/src/assets/bgAbout.svg')",
       },
     },
   },

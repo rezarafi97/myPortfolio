@@ -1,11 +1,16 @@
 import { MyAvatar, AboutMe } from ".";
 
 const AboutContainer = () => {
-  return (
-    <div className="h-screen flex justify-between items-center">
-      <MyAvatar />
+  const divClass =
+    "w-4/5 mx-auto h-screen flex flex-col md:flex-row justify-around md:justify-between items-center";
 
-      <AboutMe />
+  return (
+    <div className="bg-bgAbout w-screen">
+      <div className={divClass}>
+        <MyAvatar />
+
+        <AboutMe />
+      </div>
     </div>
   );
 };

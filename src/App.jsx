@@ -1,5 +1,6 @@
 import { LandingContainer } from "./components/landing";
 import { NavbarContainer } from "./components/navbar";
+import { AboutContainer } from "./components/about";
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
         <NavbarContainer />
 
         <LandingContainer />
+
+        <AboutContainer />
       </div>
     </div>
   );

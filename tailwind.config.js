@@ -14,6 +14,9 @@ export default {
         p4: "#DD7295",
         p5: "#A33E62",
       },
+      backgroundImage: {
+        blob: "url('/src/assets/blob.svg')",
+      },
     },
   },
   plugins: [],

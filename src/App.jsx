@@ -1,6 +1,7 @@
 import { LandingContainer } from "./components/landing";
 import { NavbarContainer } from "./components/navbar";
 import { AboutContainer } from "./components/about";
+import { SkillsContainer } from "./components/skills";
 
 const App = () => {
   return (
@@ -10,8 +11,12 @@ const App = () => {
 
         <LandingContainer />
       </div>
-      
+
       <AboutContainer />
+
+      <div className="container w-4/5 mx-auto">
+        <SkillsContainer />
+      </div>
     </div>
   );
 };

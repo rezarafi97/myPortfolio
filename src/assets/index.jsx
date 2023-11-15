@@ -2,6 +2,36 @@ import logo from "./logo.svg";
 import avatar from "./avatar.svg";
 import blob from "./blob.svg";
 import bgAbout from "./bgAbout.svg";
+import skill from "./skill.svg";
+import html from "./html.svg";
+import css from "./css.svg";
+import javascript from "./javascript.svg";
+import typescript from "./typescript.svg";
+import git from "./git.svg";
+import github from "./github.svg";
+import react from "./react.svg";
+import redux from "./redux.svg";
+import nextjs from "./nextjs.svg";
+import tailwindcss from "./tailwindcss.svg";
+import bootstrap from "./bootstrap.svg";
 import me from "./me.jpg";
 
-export { logo, avatar, blob, bgAbout, me };
+export {
+  logo,
+  avatar,
+  blob,
+  bgAbout,
+  me,
+  skill,
+  html,
+  css,
+  javascript,
+  typescript,
+  git,
+  github,
+  react,
+  redux,
+  nextjs,
+  tailwindcss,
+  bootstrap,
+};

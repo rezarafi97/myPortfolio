@@ -3,13 +3,14 @@ const NavbarMenu = () => {
   const textClass =
     "cursor-pointer text-white font-josefin text-base font-medium hover:text-lg";
 
+  // const clickHandler = (px) => window.scrollTo({ top: px, behavior: "smooth" });
+
   return (
     <>
       <ul className={divClass}>
         <li className="w-16 h-8 py-1">
           <p
             className={textClass}
-            onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}
           >
             About
           </p>

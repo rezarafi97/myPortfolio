@@ -15,6 +15,8 @@ import nextjs from "./nextjs.svg";
 import tailwindcss from "./tailwindcss.svg";
 import bootstrap from "./bootstrap.svg";
 import me from "./me.jpg";
+import checklist from "./checklist.svg";
+import ecommerce from "./ecommerce.png";
 
 export {
   logo,
@@ -34,4 +36,6 @@ export {
   nextjs,
   tailwindcss,
   bootstrap,
+  checklist,
+  ecommerce,
 };

@@ -2,6 +2,7 @@ import { LandingContainer } from "./components/landing";
 import { NavbarContainer } from "./components/navbar";
 import { AboutContainer } from "./components/about";
 import { SkillsContainer } from "./components/skills";
+import { ProjectsContainer } from "./components/projects";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
       <div className="container w-4/5 mx-auto">
         <SkillsContainer />
       </div>
+
+      <ProjectsContainer />
     </div>
   );
 };

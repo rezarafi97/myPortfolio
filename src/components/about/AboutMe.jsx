@@ -3,7 +3,7 @@ const AboutMe = () => {
   const bgClass = "bg-gradient-to-tl from-p3 to-p1 py-4 px-8 rounded-3xl";
 
   return (
-    <div className="w-full text-center md:w-1/2">
+    <div className="w-4/5 text-center md:w-1/2">
       <ul className={bgClass}>
         <li>
           <p className={textClass}>I am Reza Rafizadeh.</p>

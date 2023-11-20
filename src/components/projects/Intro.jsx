@@ -1,5 +1,6 @@
 const Intro = () => {
-    const textClass = "text-white font-josefin font-normal text-base";
+    const textClass = "text-white font-josefin font-normal text-sm md:text-base";
+
   return (
     <div>
       <p className={textClass}>

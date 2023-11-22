@@ -6,6 +6,9 @@ const AboutContainer = () => {
 
   return (
     <div className="bg-bgAbout w-screen">
+      <div className="flex justify-center py-2 md:py-4">
+        <p className="text-white font-bold text-xl font-nunito">About</p>
+      </div>
       <div className={divClass}>
         <MyAvatar />
 

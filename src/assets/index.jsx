@@ -16,6 +16,10 @@ import tailwindcss from "./tailwindcss.svg";
 import bootstrap from "./bootstrap.svg";
 import me from "./me.jpg";
 import checklist from "./checklist.svg";
+import gmail from "./gmail.svg";
+import linkedin from "./linkedin.svg";
+import phone from "./phone.svg";
+import github01 from "./github01.svg";
 import ecommerce from "./ecommerce.png";
 
 export {
@@ -38,4 +42,8 @@ export {
   bootstrap,
   checklist,
   ecommerce,
+  gmail,
+  linkedin,
+  phone,
+  github01,
 };

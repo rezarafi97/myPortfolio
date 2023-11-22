@@ -1,13 +1,11 @@
-import { NavbarLogo, NavbarMenu } from ".";
+import { NavbarLogo } from ".";
 
 const NavbarContainer = () => {
   return (
     <div>
-      <div className="flex justify-between items-center py-4">
-      <NavbarLogo />
-
-      <NavbarMenu />
-    </div>
+      <div className="py-4">
+        <NavbarLogo />
+      </div>
     </div>
   );
 };

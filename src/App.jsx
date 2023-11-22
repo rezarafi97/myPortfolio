@@ -3,6 +3,8 @@ import { NavbarContainer } from "./components/navbar";
 import { AboutContainer } from "./components/about";
 import { SkillsContainer } from "./components/skills";
 import { ProjectsContainer } from "./components/projects";
+import { ContactContainer } from "./components/contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -20,6 +22,12 @@ const App = () => {
       </div>
 
       <ProjectsContainer />
+
+      <div className="container w-4/5 mx-auto">
+        <ContactContainer />
+      </div>
+
+      <Footer />
     </div>
   );
 };

@@ -1,9 +1,9 @@
 const NavbarMenu = () => {
-  const divClass = "hidden md:flex items-center gap-4";
+  const divClass = "flex items-center gap-2 md:gap-4";
   const textClass =
-    "cursor-pointer text-white font-josefin text-base font-medium hover:text-lg";
+    "cursor-pointer text-white font-josefin text-sm md:text-base font-medium hover:text-base hover:md:text-lg";
 
-  // const clickHandler = (px) => window.scrollTo({ top: px, behavior: "smooth" });
+  const clickHandler = (px) => window.scrollTo({ top: px, behavior: "smooth" });
 
   return (
     <>
@@ -11,6 +11,7 @@ const NavbarMenu = () => {
         <li className="w-16 h-8 py-1">
           <p
             className={textClass}
+            onClick={() => clickHandler(700)}
           >
             About
           </p>

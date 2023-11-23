@@ -3,7 +3,7 @@ const Introduction = () => {
     "text-white font-nunito text-base md:text-lg lg:text-xl xl:text-2xl font-semibold my-4";
   const spanClass =
     "text-p1 text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold";
-  const bgClass = "bg-gradient-to-tl from-p4 to-p5 py-4 px-8 rounded-3xl";
+  const bgClass = "bg-gradient-to-bl from-p4 to-p5 py-4 px-8 rounded-3xl";
 
   return (
     <div className="my-0 md:my-16 lg:my-0 mx-auto md:mx-0">

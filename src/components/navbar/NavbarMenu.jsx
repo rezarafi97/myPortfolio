@@ -11,19 +11,19 @@ const NavbarMenu = () => {
         <li className="w-16 h-8 py-1">
           <p
             className={textClass}
-            onClick={() => clickHandler(700)}
+            onClick={() => clickHandler(window.innerHeight)}
           >
             About
           </p>
         </li>
         <li className="w-16 h-8 py-1">
-          <p className={textClass}>Skills</p>
+          <p className={textClass} onClick={() => clickHandler(window.innerHeight * 2)}>Skills</p>
         </li>
         <li className="w-16 h-8 py-1">
-          <p className={textClass}>Projects</p>
+          <p className={textClass} onClick={() => clickHandler(window.innerHeight * 3)}>Projects</p>
         </li>
         <li className="w-16 h-8 py-1">
-          <p className={textClass}>Contact</p>
+          <p className={textClass} onClick={() => clickHandler(window.innerHeight * 4)}>Contact</p>
         </li>
       </ul>
     </>

@@ -13,10 +13,12 @@ import {
 } from "../../assets";
 
 const SkillsList = () => {
+  const listsClass =
+    "w-full flex items-center justify-center flex-wrap gap-x-16 gap-8";
   const iconClass = "w-8 h-8 lg:w-12 lg:h-12";
 
   return (
-    <ul className="w-full flex items-center justify-center flex-wrap gap-x-16 gap-8">
+    <ul className={listsClass}>
       <li>
         <img src={html} alt="html" className={iconClass} />
       </li>

@@ -1,10 +1,12 @@
 import { gmail, linkedin, phone, github01 } from "../../assets";
 
 const ContactIcons = () => {
+  const listsClass =
+    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8";
   const spanClass = "font-josefin text-white font-normal text-sm";
 
   return (
-    <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
+    <ul className={listsClass}>
       <li className="flex gap-2 items-center">
         <img src={gmail} className="w-6 h-6 md:w-8 md:h-8" />
         <span className={spanClass}>
@@ -12,7 +14,10 @@ const ContactIcons = () => {
         </span>
       </li>
       <li className="flex gap-2 items-center">
-        <img src={linkedin} className="bg-white rounded w-6 h-6 md:w-8 md:h-8" />
+        <img
+          src={linkedin}
+          className="bg-white rounded w-6 h-6 md:w-8 md:h-8"
+        />
         <span className={spanClass}>
           <a href="https://www.linkedin.com/in/reza-rafi-375279174">
             www.linkedin.com/in/reza-rafi-375279174

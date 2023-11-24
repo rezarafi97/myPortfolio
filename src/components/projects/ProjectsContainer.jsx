@@ -6,7 +6,7 @@ const ProjectsContainer = () => {
 
   return (
     <div className="bg-bgAbout w-screen h-screen">
-      <div className="flex justify-center py-2 md:pt-4 md:pb-12">
+      <div className="flex justify-center py-2 lg:pt-4 lg:pb-12">
         <p className="text-white font-bold text-xl font-nunito">Projects</p>
       </div>
       <div className={divClass}>

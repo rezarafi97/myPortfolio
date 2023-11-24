@@ -7,8 +7,6 @@ import { ContactContainer } from "./components/contact";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
-  console.log(window.innerHeight);
-
   return (
     <div className="bg-gradient-to-br from-p3 to-p1 overflow-x-hidden">
       <div className="container w-4/5 mx-auto relative">

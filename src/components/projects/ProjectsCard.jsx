@@ -7,7 +7,7 @@ const ProjectsCard = () => {
   const [index, setIndex] = useState(1);
 
   const divClass =
-    "w-80 h-80 lg:w-96 lg:h-96 bg-white bg-opacity-50 rounded overflow-hidden";
+    "w-80 h-64 lg:w-96 lg:h-96 bg-white bg-opacity-50 rounded overflow-hidden";
   const textClass = "text-white font-josefin text-base font-normal";
 
   const prevHandler = () => {

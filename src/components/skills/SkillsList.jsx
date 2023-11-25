@@ -15,7 +15,7 @@ import {
 const SkillsList = () => {
   const listsClass =
     "w-full flex items-center justify-center flex-wrap gap-x-16 gap-8";
-  const iconClass = "w-8 h-8 lg:w-12 lg:h-12";
+  const iconClass = "w-8 h-8 lg:w-12 lg:h-12 hover:animate-bounce cursor-pointer";
 
   return (
     <ul className={listsClass}>

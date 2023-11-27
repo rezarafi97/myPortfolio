@@ -2,8 +2,9 @@ import { avatar } from "../../assets";
 
 const Avatar = () => {
   const hoverClass =
-    "hidden group-hover:block py-4 px-8 bg-p2 bg-opacity-50 rounded";
-  const textClass = "text-white font-josefin text-base font-normal";
+    "bg-opacity-0 group-hover:bg-opacity-50 py-4 px-8 bg-p2 rounded transition group-hover:transition-opacity";
+  const textClass =
+    "opacity-0 group-hover:opacity-100 text-white font-josefin text-base font-normal transition group-hover:transition-opacity";
 
   return (
     <div className="group relative">

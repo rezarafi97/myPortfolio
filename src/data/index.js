@@ -13,7 +13,7 @@ export const projects = [
     title: "Dashboard",
     description:
       "This project is a dashboard web app has been developed by Next js. This web app is a nextjs dashboard web app that authentication and authorization and has been developed very minimal with invoices overview and search and mutation features.",
-    imageURL: "https://github.com/rezarafi97/myPortfolio/blob/master/src/assets/ecommerce.png?raw=true",
+    imageURL: "https://github.com/rezarafi97/myPortfolio/blob/master/src/assets/nextjs-dashboard.png?raw=true",
     demo: "https://nextjs-dashboard-kr03sx9yx-rezarafi97s-projects.vercel.app/",
     source: "https://github.com/rezarafi97/nextjs-dashboard",
   },

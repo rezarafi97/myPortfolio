@@ -7,7 +7,11 @@ const Card = ({ p }) => {
 
   return (
     <>
-      <img src={p.imageURL} alt="ecommerce" className="hidden lg:block w-full h-1/3" />
+      <img
+        src={p.imageURL}
+        alt="ecommerce"
+        className="hidden lg:block w-full h-1/3"
+      />
       <div className="flex flex-col justify-between h-full lg:h-2/3">
         <div className="py-2 px-4 lg:py-4 lg:px-8">
           <h3 className={titleClass}>{p.title}</h3>

@@ -25,7 +25,9 @@ const ProjectsCard = () => {
   return (
     <div>
       <div className={divClass}>
-        <Card p={projects[index - 1]} />
+        {projects.map(p => (
+          <Card p={p} key={p.id} />
+        ))}
       </div>
 
       <div className="flex justify-center my-2 lg:my-4 gap-4">

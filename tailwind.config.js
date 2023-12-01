@@ -16,6 +16,7 @@ export default {
       },
       backgroundImage: {
         bgAbout: "url('/src/assets/bgAbout.svg')",
+        blob: "url('/src/assets/blob.svg')",
       },
     },
   },

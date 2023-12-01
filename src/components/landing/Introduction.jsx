@@ -1,13 +1,14 @@
 const Introduction = () => {
   const listClass =
-    "text-white font-nunito text-base md:text-lg lg:text-xl xl:text-2xl font-semibold my-4";
+    "text-white font-nunito text-sm md:text-base lg:text-lg xl:text-xl font-semibold my-4";
   const spanClass =
-    "text-p1 text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold";
-  const bgClass = "bg-gradient-to-bl from-p4 to-p5 py-4 px-8 rounded-3xl";
+    "text-p1 text-base md:text-lg lg:text-xl xl:text-2xl font-bold";
+  const divClass =
+    "h-[80vh] w-full md:w-1/2 bg-blob bg-center bg-no-repeat bg-contain flex items-center justify-center";
 
   return (
-    <div className="my-0 md:my-16 lg:my-0 mx-auto md:mx-0">
-      <ul className={bgClass}>
+    <div className={divClass}>
+      <ul>
         <li className={listClass}>
           I am <span className={spanClass}>Reza</span>
         </li>

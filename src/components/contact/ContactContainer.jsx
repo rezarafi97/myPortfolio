@@ -1,11 +1,11 @@
 import { ContactForm, ContactIcons } from ".";
 
 const ContactContainer = () => {
-  const divClass = "h-screen flex flex-col items-center justify-between";
+  const divClass = "h-[calc(100dvh)] flex flex-col items-center justify-between";
 
   return (
     <div className={divClass}>
-      <div className="h-screen flex flex-col justify-around gap-6">
+      <div className="h-[calc(100dvh)] flex flex-col justify-around gap-6">
         <ContactIcons />
 
         <ContactForm />
